@@ -1,14 +1,15 @@
-header{
-    width: 850px;
-    background-color: blue;
-    align-content: center;
+body {
+    padding: 0px 200px;
 }
+
 
 #headdiv {
     color: white;
-
+    height: 300px;
+    width: 850px;
+    background-color: blue;
 }
-
+/*
 ul {
     list-style-type: none;
     margin: 0;
@@ -31,4 +32,36 @@ ul {
  
  li a:hover {
     background-color: #111;
+ }
+*/
+ .mainContent {
+     width: 850px;
+     height: 900px;
+     background-color: gray;
+ }
+
+ .mainNav{
+    position: relative;
+    left: 50px;
+ }
+
+ .listItems{
+    margin: 0px;
+}
+
+ .listItems li {
+     float: left;
+     list-style-type: none;
+     padding: 5px;
+ }
+
+ .profilePic {
+     width: 150px;
+     height: 150px;
+     background-color: aqua;
+     border: 3px solid black;
+     float: left;
+     position: relative;
+     left: 20px;
+     top: -50px;
  }
