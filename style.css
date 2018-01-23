@@ -47,12 +47,27 @@ ul {
 
  .listItems{
     margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
  .listItems li {
      float: left;
      list-style-type: none;
      padding: 5px;
+ }
+
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+ 
+ li a:hover {
+    background-color: #111;
  }
 
  .profilePic {
