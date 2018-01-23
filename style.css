@@ -9,31 +9,11 @@ body {
     width: 850px;
     background-color: #5342f4;
 }
-/*
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
- }
- 
- li {
-    float: left;
- }
- 
- li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
- }
- 
- li a:hover {
-    background-color: #111;
- }
-*/
+
+.headTxt {
+    padding: 50px 100px 0 30px;
+}
+
  .mainContent {
      width: 850px;
      height: 900px;
@@ -48,7 +28,7 @@ ul {
  .listItems{
     margin: 0px;
     padding: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: #333;
 }
 
@@ -62,7 +42,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    /*padding: 14px 16px;*/
     text-decoration: none;
  }
  
@@ -78,5 +58,5 @@ ul {
      float: left;
      position: relative;
      left: 20px;
-     top: -50px;
+     top: -20px;
  }
