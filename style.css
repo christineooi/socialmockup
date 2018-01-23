@@ -11,13 +11,13 @@ body {
 }
 
 .headTxt {
-    padding: 50px 100px 0 30px;
+    padding: 180px 100px 0 200px;
 }
 
  .mainContent {
      width: 850px;
      height: 900px;
-     background-color: gray;
+     background-color: lightgray;
  }
 
  .mainNav{
@@ -53,10 +53,50 @@ body {
  .profilePic {
      width: 150px;
      height: 150px;
-     background-color: aqua;
+     background-color: yellow;
      border: 3px solid black;
      float: left;
      position: relative;
      left: 20px;
-     top: -20px;
+     top: -140px;
  }
+
+
+ #leftContent {
+    float: left;
+    width: 350px;
+    border: 5px solid black;
+    margin: 40px 10px 40pm 5px;
+    background-color: aquamarine;
+ }
+
+ #rightContent {
+    float: left;
+    width: 400px;
+    margin: 40px 10px 40pm 5px;
+    background-color: beige;
+ }
+
+ #aboutyourPage {
+    border: 5px solid black;
+    width: 40px;
+    height: 50px;
+    float: left;
+ }
+
+ /*
+ #about {
+    border: 5px solid black;
+    float: left;
+ }
+
+ #feed1 {
+    border: 5px solid black;
+    float: left;
+ }
+
+ #feed2 {
+    border: 5px solid black;
+    float: left;
+ }
+ */
