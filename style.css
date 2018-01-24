@@ -14,10 +14,11 @@ body {
     padding: 180px 100px 0 200px;
 }
 
- .mainContent {
+ .wrapper {
      width: 850px;
      height: 900px;
      background-color: lightgray;
+     /*margin: 0 auto;*/
  }
 
  .mainNav{
@@ -62,28 +63,32 @@ body {
  }
 
 
- #leftContent {
+ #column1 {
     float: left;
     width: 328px;
-    border: 5px solid black;
-    margin: 80px 200px 80px 5px;
+    /*border: 5px solid black;*/
+    /*margin: 80px 200px 80px 5px;*/
     background-color: aquamarine;
+    min-height: 400px;
  }
 
- #rightContent {
-    float: left;
+ #column2 {
+    float: right;
     width: 512px;
     /*margin: 80px 10px 80px 5px;*/
     background-color: beige;
-    padding: 10px;
+    min-height: 400px;
+    /*padding: 10px;*/
  }
 
+ /*
  #aboutyourPage {
     border: 5px solid black;
     width: 120px;
     height: 200px;
     float: left;
  }
+*/
 
  /*
  #about {
@@ -101,3 +106,7 @@ body {
     float: left;
  }
  */
+
+ .clear {
+     clear: both;
+ }
