@@ -1,12 +1,12 @@
 body {
-    padding: 0px 200px;
+    /*padding: 0px 200px;*/
 }
 
 .wrapper {
     width: 850px;
     height: 900px;
     background-color: lightgray;
-    /*margin: 0 auto;*/
+    margin: auto;
 }
 
 #headdiv {
@@ -22,67 +22,86 @@ body {
 
 
  .mainNav{
-    position: relative;
-    border: 1px solid black;
+    /* position: relative; */
+    /* border: 1px solid black; */
     width: 100%;
     height: 40px;
-    background-color: lightpink;
+    background-color: white;
  }
 
  .listItems{
     margin: 0px;
-    padding: 10px;
-    background-color: lightgray;
+    /* padding: 10px; */
+    left: 140px;
+    position: relative;
+    background-color: blanchedalmond;
 }
 
  .listItems li {
      float: left;
      list-style-type: none;
-     padding: 5px;
+     padding: 10px;
+     border-right-style: inset;
+     
  }
 
  li a {
     display: block;
-    color: white;
+    color: #5342f4;
     text-align: center;
     /*padding: 14px 16px;*/
     text-decoration: none;
  }
  
  li a:hover {
-    color: black;
+    text-decoration-line: underline;
+    font-weight: bold;
  }
 
  .profilePic {
      width: 150px;
      height: 150px;
      background-color: yellow;
-     border: 3px solid black;
+     /* border: 3px solid black; */
      float: left;
-     position: relative;
+     margin-top: -170px;
+     margin-left: 20px;
+     /* position: relative;
      left: 20px;
-     top: -140px;
+     top: -180px; */
  }
 
+ #content {
+     margin-top: 20px;
+
+     clear: both;
+
+ }
 
  #column1 {
     float: left;
     width: 328px;
-    margin-right: 0px;
+    /* width: 48%; */
+    /* margin-right: 0px; */
+    /* position: relative; */
+    /* display: inline-block; */
     /*border: 5px solid black;*/
     /*margin: 80px 200px 80px 5px;*/
-    background-color: aquamarine;
+    background-color: lightskyblue;
     min-height: 400px;
  }
 
- /*
+ 
  #column2 {
+    /*float:right;*/
     float: right;
     width: 512px;
-    background-color: beige;
+    /* width: 48%; */
+    background-color: lightcyan;
     min-height: 400px;
+    /* display: inline-block; */
  }
-*/
+
  /*
  #aboutyourPage {
     border: 5px solid black;
