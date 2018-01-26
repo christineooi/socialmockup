@@ -12,7 +12,6 @@ body {
 #headdiv {
     color: white;
     height: 300px;
-    /*width: 850px;*/
     background-color: #5342f4;
 }
 
@@ -22,8 +21,6 @@ body {
 
 
  .mainNav{
-    /* position: relative; */
-    /* border: 1px solid black; */
     width: 100%;
     height: 40px;
     background-color: white;
@@ -31,7 +28,6 @@ body {
 
  .listItems{
     margin: 0px;
-    /* padding: 10px; */
     left: 140px;
     position: relative;
     background-color: blanchedalmond;
@@ -49,7 +45,6 @@ body {
     display: block;
     color: #5342f4;
     text-align: center;
-    /*padding: 14px 16px;*/
     text-decoration: none;
  }
  
@@ -62,13 +57,9 @@ body {
      width: 150px;
      height: 150px;
      background-color: yellow;
-     /* border: 3px solid black; */
      float: left;
      margin-top: -170px;
      margin-left: 20px;
-     /* position: relative;
-     left: 20px;
-     top: -180px; */
  }
 
  #content {
@@ -81,36 +72,33 @@ body {
  #column1 {
     float: left;
     width: 328px;
-    /* width: 48%; */
-    /* margin-right: 0px; */
-    /* position: relative; */
-    /* display: inline-block; */
-    /*border: 5px solid black;*/
-    /*margin: 80px 200px 80px 5px;*/
     background-color: lightskyblue;
     min-height: 400px;
  }
 
  
  #column2 {
-    /*float:right;*/
     float: right;
     width: 512px;
-    /* width: 48%; */
     background-color: lightcyan;
     min-height: 400px;
-    /* display: inline-block; */
  }
 
- /*
+
  #aboutyourPage {
-    border: 5px solid black;
-    width: 120px;
+    border: 1px solid black;
+    width: 250px;
     height: 200px;
-    float: left;
+    float: right;
+    background-color: white;
  }
-*/
 
+
+#aboutyourPageMiddle{
+    color: #5342f4;
+    border-top-style: ridge
+
+}
  /*
  #about {
     border: 5px solid black;
