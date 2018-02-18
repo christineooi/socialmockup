@@ -1,10 +1,13 @@
 body {
-    /*padding: 0px 200px;*/
+    padding: 0px 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
+
 
 .wrapper {
     width: 850px;
-    height: 900px;
+    height: 950px;
     background-color: lightgray;
     margin: auto;
 }
@@ -72,23 +75,22 @@ body {
  #column1 {
     float: left;
     width: 328px;
-    background-color: lightskyblue;
-    min-height: 400px;
+    /* background-color: lightskyblue; */
+    /* min-height: 400px; */
+    height: 600px;
  }
 
  
  #column2 {
     float: right;
     width: 512px;
-    background-color: lightcyan;
-    min-height: 400px;
+    height: 600px;
  }
 
 
  #aboutyourPage {
-    border: 1px solid black;
     width: 250px;
-    height: 200px;
+    height: 180px;
     float: right;
     background-color: white;
  }
@@ -96,25 +98,85 @@ body {
 
 #aboutyourPageMiddle{
     color: #5342f4;
-    border-top-style: ridge
-
+    border-top-style: ridge;
 }
- /*
+
+#aypTxt {
+    color: #5342f4;
+}
+
+#aboutyourPageBottom{
+    color: hsl(246, 89%, 61%);
+    border-top-style: ridge;
+}
+ 
  #about {
-    border: 5px solid black;
-    float: left;
+    position: relative;
+    top: 10px;
+    left: 1px;
+    float: right;
+    clear: right;
+    width: 250px;
+    height: 120px;
+    background-color: white
+ }
+
+ #aboutTop{
+    font-variant: small-caps;
+    color: slategrey;
+ }
+
+ #aboutMain {
+    border-top-style: ridge;
  }
 
  #feed1 {
-    border: 5px solid black;
+    background-color: white;
     float: left;
+    width: 400px;
+    height: 265px;
+
  }
 
- #feed2 {
-    border: 5px solid black;
+.feedImg {
     float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #5342f4;
+}
+
+.feedTxt {
+    vertical-align: middle;
+    padding: 10px;
+    left: 20px;
+}
+
+#feed1Block{
+    width: 390px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: #5342f4;
+}  
+
+.feedBottom {
+    height: 20px;
+    background-color: azure;
+    border-top-style: ridge;
+    padding-top: 4px;
+    padding-left: 20px;
+    margin-top: 2px;
+}
+ #feed2 {
+    position: relative;
+    top: 10px;
+    float: left;
+    width: 400px;
+    background-color: white;
  }
- */
+
 
  .clear {
      clear: both;
